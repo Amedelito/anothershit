@@ -1,0 +1,16 @@
+# Duración de cada aviso en ticks (20 ticks = 1 segundo)
+duracion-ticks: 100
+# Máximo de avisos a la vez en pantalla (1-5)
+max-lineas: 4
+# Mitad del ancho de la GUI en píxeles = pegado al borde derecho.
+# GUI "Auto" en 1080p = 480 de ancho -> 240. Cada jugador lo ajusta con /kf ajuste
+mitad-ancho-gui: 240
+# Altura por defecto: 0 = arriba del todo ... 4 = bien abajo. Cada jugador: /kf pos <0-4>
+posicion-vertical: 2
+# Segundos para encadenar racha de kills (muestra x2, x3...)
+racha-segundos: 12
+# Solo se muestra a quien haya cargado el resource pack del servidor
+# (o a quien haga /kf on para forzarlo, por ejemplo con el pack instalado en local).
+solo-con-resourcepack: true
+ocultar-mensaje-chat: false
+sonidos: true

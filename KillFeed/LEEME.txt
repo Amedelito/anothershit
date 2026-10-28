@@ -1,0 +1,12 @@
+KILLFEED v2 para Paper 1.21.1 (Java 21)
+
+COMPILAR:   mvn clean package   (o sube a GitHub: .github/workflows/build.yml)
+PACK:       Normsafio_TexturePack_v14.zip
+
+COMANDOS
+/kf on | off              activar/desactivar para ti (on fuerza si tienes el pack instalado en local)
+/kf ajuste <n | +n | -n>  distancia al borde derecho (defecto 240 = pegado al borde en GUI Auto 1080p)
+/kf pos <0-4>             altura: 0 arriba ... 4 abajo (defecto 2)
+/kf test <tipo>           caida espada arco tnt radiacion fuego lava agua vacio matas tematan racha  (op)
+/kf push <icono> <texto con &colores>   aviso manual (op)
+/kf reload
